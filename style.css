@@ -101,6 +101,12 @@ li {
         color: white;
         text-align: left;
 }
+iframe {
+        border: 10px solid;
+        border-style: inset;
+        color:#C9B79C
+
+}
 
 
 
