@@ -1,0 +1,10 @@
+index.html
+color: beige, sunlight, creme
+font: brown, caramel
+
+ALI HOUNAIN center (ascii text?)
+Welcome to my portfolio.
+Click any of the links for more :)
+
+ABOUT PROJECTS RESUME 
+        Leave A Message!
