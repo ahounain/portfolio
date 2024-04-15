@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
     \usepackage{fullpage}
+    \usepackage{enumitem}
     \usepackage{amsmath}
     \usepackage{amssymb}
     \usepackage{textcomp}
@@ -80,42 +81,62 @@
 %==== Education ====%
 \header{Education}
 \textbf{University of Massachusetts Boston}\hfill Boston,MA\\
-BS Computer Science \hfill Sep 2020 - Dec 2024\\
+Bachelor of Science in Computer Science \hfill Sep 2020 - Dec 2024\\
 \vspace{2mm}
 
+
+
+\header{Languages}
+\begin{tabular}{ l l }
+	Java, Python, SQL, Javascript, Racket, C/C++,  HTML/CSS,   &   \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Tools}
+\begin{tabular}{ l l }
+	Docker, AWS, GCP, Flask, Node, Three.js, Microsoft Office Suite, Git, React   &   \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{quake-topomap}} {\sl Three.js, Javascript, HTML \hfill https://ahounain.github.io/quake-topomap/init/\\
+\begin{itemize} 
+	\item Designed and developed Quake-TopoMap, an interactive web application that enables users to easily visualize USGS earthquake epicenter data via an interactive topographic map
+	\item Utilized \textbf{Three.js} for 3D modeling, Mapbox's API for the satellite imagery and the USGS API for real-time earthquake data
+\end{itemize}
+\vspace*{2mm}
+{\textbf{AshOrBrain?}} {\sl Javascript, HTML, CSS \hfill https://ahounain.github.io/ashorbrain/\\
+\begin{itemize}
+	\item Utilized the MBTA's API to fetch train arrival data to develop AshOrBrain?, a web application that greatly improves the commuting experience for commuters at JFK/UMASS (MBTA Red Line stop).
+	\item Accurately calculated the track on which the Alewife train will arrive, a feature not provided by the default predictor
+	\item Utilized \textbf{JavaScript, HTML, and CSS} to create an intuitive and user-friendly interface, improving the commuting experience for dozens of users
+	\end{itemize}
+\vspace*{2mm}
+
+{\textbf{BoxFinder}} {\sl Flask, Python, Javascript, Docker \hfill https://boxfinder-hxjxgzgpna-ue.a.run.app/  } \\
+\begin{itemize}
+	\item Developed BoxFinder, a web application that optimizes the packaging process by providing the best box for a given item's dimensions. 		
+	\item Boxfinder not only reduces shipping costs for customers, but also cuts down customer wait time from new hires by up to 50 percent	
+	\item	 Utilized {\textbf{Flask}} for the backend, HTML and CSS for the frontend,  {\textbf{Docker}} for the containerization and deployed using {\textbf{Google Cloud Run}}
+
+\end{itemize}
+\vspace*{2mm}
 %==== Experience ====%
 \header{Work Experience}
 \vspace{1mm}
 
 \textbf{The UPS Store} \hfill Saugus,MA\\
-\textit{Asst. Manager} \hfill Jan 2018 - Present\\
+\textit{Manager} \hfill Jan 2018 - Present\\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
-	\item Manage supplies
-	\item Supervise and train employees
+	\item Led the onboarding process for new hires and facilitated their assimilation into our work environment.
+	\item Managed store's inventory system, and maintained organization of supplies
+	\item Troubleshooted and resolved issues with the store's POS system and print computers
+	\item Deescalated situations and resolved conflicts among employees and customers
+	\item Led several efforts to optimize workplace efficiency, such as creating BoxFinder and creating a QR code list of all items in the store that lets new hires easily scan in items into the POS
 \end{itemize}
 
-\header{Skills}
-\begin{tabular}{ l l }
-	Java, Python, Javascript, DSA, Web Development: &   \\
-\end{tabular}
-\vspace{2mm}
-
-\header{Projects}
-{\textbf{quake-topomap}} {\sl Javascript, HTML \hfill https://github.com/ahounain/quake-topomap\\
-Web application using \textbf{Three.js} and the Mapbox API to generate a topographical map with earthquake location coordinates mapped upon it.\\
-\vspace*{2mm}
-{\textbf{AshOrBrain?}} {\sl Javascript, HTML, CSS \hfill https://ahounain.github.io/ashorbrain/\\
-Web application that tells the user which track the Alewife train is going to arrive on at the JFK UMASS stop.\\
-\vspace*{2mm}
-{\textbf{j-- Compiler}} {\sl Java \\
-Added more features to a base compiler for a language j-- , a subset of Java.\\
-\vspace*{2mm}
-{\textbf{Huffman Encoding}} {\sl C} \\
-Program that reduces the size of a file by around 40 percent.\\
-\vspace*{2mm}
 
 
 
-\ 
 \end{document}
